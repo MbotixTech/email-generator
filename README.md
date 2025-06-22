@@ -81,9 +81,9 @@ Cocok untuk testing, multi-register, bypass duplicate check, dan kebutuhan profe
 > **Fakta Unik:**  
 > Gmail akan mengabaikan titik (`.`) di username.  
 > Contoh:  
-> - `mbotixtech@gmail.com`  
-> - `m.botixtech@gmail.com`  
-> - `mbotix.tech@gmail.com`  
+> - `mbotairdrop@gmail.com`  
+> - `m.botairdrop@gmail.com`  
+> - `mbot.airdrop@gmail.com`  
 > Akan masuk ke inbox **yang sama**.
 
 ---
@@ -93,7 +93,7 @@ Cocok untuk testing, multi-register, bypass duplicate check, dan kebutuhan profe
 - CLI interaktif & profesional (banner, warna, progress bar)
 - Input email utama + jumlah maksimal kombinasi (limit 1000, biar tetap ringan)
 - **Preview hasil** di terminal
-- **Export** semua kombinasi ke `result.txt` (rapih & ada summary)
+- **Export** semua kombinasi ke `result.txt` (format clean, cuma email list)
 - Friendly error & info (pakai `boxen`, `chalk`, `figlet`)
 - Kode clean, mudah modif, cocok untuk dev & non-dev
 
@@ -103,8 +103,8 @@ Cocok untuk testing, multi-register, bypass duplicate check, dan kebutuhan profe
 
 1. **Clone repo:**
    ```bash
-   git clone https://github.com/MbotixTech/email-generator.git
-   cd email-generator
+   git clone https://github.com/MbotixTech/gmail-dot-combo-generator.git
+   cd gmail-dot-combo-generator
    ```
 
 2. **Install dependencies:**
@@ -119,7 +119,7 @@ Cocok untuk testing, multi-register, bypass duplicate check, dan kebutuhan profe
 ## ⚡️ Cara Pakai
 
 ```bash
-npm start
+node index.js
 ```
 
 ### Atau, jika file sudah executable:
@@ -130,7 +130,7 @@ npm start
 
 **Ikuti instruksi di terminal:**
 
-* Masukkan email utama Gmail (misal: `mbotixtech@gmail.com`)
+* Masukkan email utama Gmail (misal: `mbotairdrop@gmail.com`)
 * Masukkan jumlah kombinasi (misal: `100`)
 * Tool akan generate kombinasi, tampil progress, dan save hasil ke `result.txt`
 
@@ -138,44 +138,20 @@ npm start
 
 ## 📂 Output
 
-* File **result.txt** berisi semua kombinasi email
-* Format rapih + summary info + timestamp
+File **result.txt** berisi daftar email kombinasi dalam format sederhana:
 
----
+```
+mbotixtech@gmail.com
+m.botixtech@gmail.com
+mb.otixtech@gmail.com
+mbo.tixtech@gmail.com
+mbot.ixtech@gmail.com
+mboti.xtech@gmail.com
+mbotix.tech@gmail.com
+mbotixt.ech@gmail.com
+mbotixte.ch@gmail.com
+mbotixtech@gmail.com
+```
 
-## 🛠️ Dependencies (Tools):
-
-* [`inquirer`](https://www.npmjs.com/package/inquirer) - Input interaktif
-* [`chalk`](https://www.npmjs.com/package/chalk) - Warna di terminal
-* [`figlet`](https://www.npmjs.com/package/figlet) - Banner ASCII art
-* [`boxen`](https://www.npmjs.com/package/boxen) - Kotak pesan/info
-* [`fs`](https://nodejs.org/api/fs.html) - File system (bawaan Node.js)
-* [`path`](https://nodejs.org/api/path.html) - Path utilities (bawaan Node.js)
-
----
-
-## 🔒 Catatan Penting
-
-* **Jangan gunakan untuk aktivitas spam atau hal yang melanggar aturan Gmail!**
-* Tool ini hanya generate kombinasi, **tidak membuat akun Gmail baru**
-* Limit maksimal 1000 kombinasi sekali generate (bisa diubah di kodenya kalau perlu)
-* Semua kombinasi hanya berlaku di Gmail, **bukan email provider lain**
-
----
-
-## 📄 Lisensi
-
-MIT License
-© 2025 [MbotixTECH](https://mbotix.tech)
-
----
-
-## 👋 Kontak & Dukungan
-
-* Email: [mbotixtech@gmail.com](mailto:mbotixtech@gmail.com)
-* Website: [https://mbotix.tech](https://mbotix.tech)
-* GitHub: [MbotixTech](https://github.com/MbotixTech)
-
----
-
-**Powered by MbotixTECH – Professional Email Tools**
+* **Format clean**: Satu email per baris, tanpa nomor atau informasi tambahan
+* **Ready to use**: Mudah di-copy, import ke tools lain, atau diproses lebih lanjut
