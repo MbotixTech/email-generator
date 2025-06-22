@@ -119,7 +119,7 @@ Cocok untuk testing, multi-register, bypass duplicate check, dan kebutuhan profe
 ## ⚡️ Cara Pakai
 
 ```bash
-node index.js
+npm start
 ```
 
 ### Atau, jika file sudah executable:
