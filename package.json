@@ -1,0 +1,57 @@
+{
+  "name": "mbotictech-email-generator",
+  "version": "1.0.0",
+  "description": "Gmail dot combination generator - MbotixTECH",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "mbotix-email": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "email",
+    "generator",
+    "gmail",
+    "mbotictech",
+    "cli",
+    "dot-combination",
+    "email-variations",
+    "terminal",
+    "interactive",
+    "professional"
+  ],
+  "author": {
+    "name": "MbotixTECH",
+    "email": "mbotixtech@gmail.com",
+    "url": "https://mbotix.tech"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbotixtech/email-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mbotixtech/email-generator/issues"
+  },
+  "homepage": "https://github.com/mbotixtech/email-generator#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "chalk": "^5.3.0",
+    "figlet": "^1.7.0",
+    "boxen": "^7.1.1"
+  },
+  "devDependencies": {},
+  "files": [
+    "index.js",
+    "README.md",
+    "USAGE.md",
+    "API.md"
+  ]
+}
