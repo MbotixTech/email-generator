@@ -1,5 +1,78 @@
 # MbotixTECH Gmail Dot Combination Generator
 
+## 📸 Tampilan Aplikasi
+
+<div align="center">
+
+### 🎨 Interface Utama
+```
+╔══════════════════════════════════════════════════════════════════════════════════════╗
+║  ███╗   ███╗██████╗  ██████╗ ████████╗██╗██╗  ██╗████████╗███████╗ ██████╗██╗  ██╗  ║
+║  ████╗ ████║██╔══██╗██╔═══██╗╚══██╔══╝██║╚██╗██╔╝╚══██╔══╝██╔════╝██╔════╝██║  ██║  ║
+║  ██╔████╔██║██████╔╝██║   ██║   ██║   ██║ ╚███╔╝    ██║   █████╗  ██║     ███████║  ║
+║  ██║╚██╔╝██║██╔══██╗██║   ██║   ██║   ██║ ██╔██╗    ██║   ██╔══╝  ██║     ██╔══██║  ║
+║  ██║ ╚═╝ ██║██████╔╝╚██████╔╝   ██║   ██║██╔╝ ██╗   ██║   ███████╗╚██████╗██║  ██║  ║
+║  ╚═╝     ╚═╝╚═════╝  ╚═════╝    ╚═╝   ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝  ║
+╚══════════════════════════════════════════════════════════════════════════════════════╝
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🚀 Gmail Dot Combination Generator 🚀                      │
+│ Generate all possible email combinations with dots         │
+└─────────────────────────────────────────────────────────────┘
+
+✅ MbotixTECH Generator Ready!
+
+📧 Masukkan email Gmail utama: mbotixtech@gmail.com
+🔢 Berapa banyak kombinasi yang ingin di-generate? 10
+
+🔧 Memproses email kombinasi...
+
+Progress: [██████████████████████████████] 100% (10/10)
+
+✅ Proses selesai!
+```
+
+### 📊 Hasil Generate
+```
+┌─────────────────────────────────────────────────────────────┐
+│ 📊 HASIL GENERATE EMAIL                                    │
+│                                                             │
+│ 🔢 Total kombinasi: 10                                     │
+│ ⏱️  Waktu proses: 0.16 detik                               │
+│ 📁 File tersimpan: result.txt                              │
+│                                                             │
+│ ✨ Semua kombinasi berhasil di-generate!                   │
+└─────────────────────────────────────────────────────────────┘
+
+📋 Preview hasil (5 pertama):
+──────────────────────────────────────────────────
+ 1. mbotixtech@gmail.com
+ 2. m.botixtech@gmail.com
+ 3. mb.otixtech@gmail.com
+ 4. mbo.tixtech@gmail.com
+ 5. mbot.ixtech@gmail.com
+... dan 5 kombinasi lainnya
+──────────────────────────────────────────────────
+```
+
+### 🎉 Pesan Selesai
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     🎉 TERIMA KASIH! 🎉                    │
+│                                                             │
+│          Telah menggunakan MbotixTECH Email Generator      │
+│          Follow kami untuk tools menarik lainnya!          │
+│                                                             │
+│          📧 Contact: mbotixtech@gmail.com                  │
+│          🌐 Website: mbotix.tech                           │
+│          🐙 GitHub: https://github.com/MbotixTech          │
+└─────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+---
+
 ## 🚀 Apa Ini?
 
 **MbotixTECH Gmail Dot Combination Generator** adalah tool berbasis Node.js untuk menghasilkan semua kemungkinan kombinasi alamat email Gmail dengan titik (`.`) di username.  
@@ -8,9 +81,9 @@ Cocok untuk testing, multi-register, bypass duplicate check, dan kebutuhan profe
 > **Fakta Unik:**  
 > Gmail akan mengabaikan titik (`.`) di username.  
 > Contoh:  
-> - `mbotairdrop@gmail.com`  
-> - `m.botairdrop@gmail.com`  
-> - `mbot.airdrop@gmail.com`  
+> - `mbotixtech@gmail.com`  
+> - `m.botixtech@gmail.com`  
+> - `mbotix.tech@gmail.com`  
 > Akan masuk ke inbox **yang sama**.
 
 ---
@@ -30,8 +103,8 @@ Cocok untuk testing, multi-register, bypass duplicate check, dan kebutuhan profe
 
 1. **Clone repo:**
    ```bash
-   git clone https://github.com/MbotixTech/gmail-dot-combo-generator.git
-   cd gmail-dot-combo-generator
+   git clone https://github.com/MbotixTech/email-generator.git
+   cd email-generator
    ```
 
 2. **Install dependencies:**
@@ -57,7 +130,7 @@ node index.js
 
 **Ikuti instruksi di terminal:**
 
-* Masukkan email utama Gmail (misal: `mbotairdrop@gmail.com`)
+* Masukkan email utama Gmail (misal: `mbotixtech@gmail.com`)
 * Masukkan jumlah kombinasi (misal: `100`)
 * Tool akan generate kombinasi, tampil progress, dan save hasil ke `result.txt`
 
