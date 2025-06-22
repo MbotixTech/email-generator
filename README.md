@@ -103,8 +103,8 @@ Cocok untuk testing, multi-register, bypass duplicate check, dan kebutuhan profe
 
 1. **Clone repo:**
    ```bash
-   git clone https://github.com/MbotixTech/gmail-dot-combo-generator.git
-   cd gmail-dot-combo-generator
+   git clone https://github.com/MbotixTech/email-generator.git
+   cd email-generator
    ```
 
 2. **Install dependencies:**
