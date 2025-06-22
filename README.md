@@ -81,9 +81,9 @@ Cocok untuk testing, multi-register, bypass duplicate check, dan kebutuhan profe
 > **Fakta Unik:**  
 > Gmail akan mengabaikan titik (`.`) di username.  
 > Contoh:  
-> - `mbotairdrop@gmail.com`  
-> - `m.botairdrop@gmail.com`  
-> - `mbot.airdrop@gmail.com`  
+> - `mbotixtech@gmail.com`  
+> - `m.botixtech@gmail.com`  
+> - `mbot.ixtech@gmail.com`  
 > Akan masuk ke inbox **yang sama**.
 
 ---
@@ -130,7 +130,7 @@ npm start
 
 **Ikuti instruksi di terminal:**
 
-* Masukkan email utama Gmail (misal: `mbotairdrop@gmail.com`)
+* Masukkan email utama Gmail (misal: `mbotixtech@gmail.com`)
 * Masukkan jumlah kombinasi (misal: `100`)
 * Tool akan generate kombinasi, tampil progress, dan save hasil ke `result.txt`
 
