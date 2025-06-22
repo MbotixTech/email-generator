@@ -5,7 +5,8 @@
 <div align="center">
 
 ### 🎨 Interface Utama
-```
+
+```ini
 ╔══════════════════════════════════════════════════════════════════════════════════════╗
 ║  ███╗   ███╗██████╗  ██████╗ ████████╗██╗██╗  ██╗████████╗███████╗ ██████╗██╗  ██╗  ║
 ║  ████╗ ████║██╔══██╗██╔═══██╗╚══██╔══╝██║╚██╗██╔╝╚══██╔══╝██╔════╝██╔════╝██║  ██║  ║
@@ -33,7 +34,8 @@ Progress: [███████████████████████
 ```
 
 ### 📊 Hasil Generate
-```
+
+```ini
 ┌─────────────────────────────────────────────────────────────┐
 │ 📊 HASIL GENERATE EMAIL                                    │
 │                                                             │
@@ -56,7 +58,8 @@ Progress: [███████████████████████
 ```
 
 ### 🎉 Pesan Selesai
-```
+
+```ini
 ┌─────────────────────────────────────────────────────────────┐
 │                     🎉 TERIMA KASIH! 🎉                    │
 │                                                             │
@@ -80,11 +83,12 @@ Cocok untuk testing, multi-register, bypass duplicate check, dan kebutuhan profe
 
 > **Fakta Unik:**  
 > Gmail akan mengabaikan titik (`.`) di username.  
-> Contoh:  
-> - `mbotixtech@gmail.com`  
-> - `m.botixtech@gmail.com`  
+> Contoh:
+>
+> - `mbotixtech@gmail.com`
+> - `m.botixtech@gmail.com`
 > - `mbot.ixtech@gmail.com`  
-> Akan masuk ke inbox **yang sama**.
+>    Akan masuk ke inbox **yang sama**.
 
 ---
 
@@ -102,15 +106,17 @@ Cocok untuk testing, multi-register, bypass duplicate check, dan kebutuhan profe
 ## 📦 Instalasi
 
 1. **Clone repo:**
-   ```bash
-   git clone https://github.com/MbotixTech/email-generator.git
-   cd email-generator
-   ```
+
+```bash
+git clone https://github.com/MbotixTech/email-generator.git
+cd email-generator
+```
 
 2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+
+```bash
+npm install
+```
 
 3. **(Pastikan Node.js v16 atau di atasnya)**
 
@@ -140,7 +146,7 @@ npm start
 
 File **result.txt** berisi daftar email kombinasi dalam format sederhana:
 
-```
+```sh
 mbotixtech@gmail.com
 m.botixtech@gmail.com
 mb.otixtech@gmail.com
@@ -155,3 +161,41 @@ mbotixtech@gmail.com
 
 * **Format clean**: Satu email per baris, tanpa nomor atau informasi tambahan
 * **Ready to use**: Mudah di-copy, import ke tools lain, atau diproses lebih lanjut
+
+---
+
+## 📄 License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+---
+
+## ⚠️ Disclaimer & Tanggung Jawab
+
+**PENTING: BACA SEBELUM MENGGUNAKAN**
+
+### 🔒 Tanggung Jawab Pengguna
+- **Penggunaan sepenuhnya menjadi tanggung jawab pengguna**
+- Tool ini dibuat untuk tujuan **edukasi dan testing** yang sah
+- Pengguna bertanggung jawab penuh atas segala konsekuensi dari penggunaan tool ini
+- **MbotixTECH tidak bertanggung jawab** atas penyalahgunaan atau dampak negatif yang ditimbulkan
+
+### ✅ Penggunaan yang Diperbolehkan
+- Testing aplikasi web/sistem sendiri
+- Demonstrasi konsep keamanan
+- Penelitian akademis
+- Pengembangan software
+
+### ❌ Penggunaan yang Tidak Diperbolehkan
+- Spam atau flooding email
+- Melanggar Terms of Service platform
+- Aktivitas ilegal atau merugikan pihak lain
+- Bypass sistem keamanan tanpa izin
+
+### 📝 Ketentuan Tambahan
+- Tool ini **TIDAK** menyediakan akses ke akun email yang sudah ada
+- Kombinasi email yang dihasilkan hanya untuk keperluan testing
+- Pengguna wajib mematuhi hukum dan regulasi yang berlaku
+- Gunakan dengan bijak dan bertanggung jawab
+
+> **💡 Catatan:**  
+> Dengan menggunakan tool ini, Anda menyetujui bahwa segala risiko dan tanggung jawab sepenuhnya berada di tangan Anda sebagai pengguna.
